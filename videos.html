@@ -1,0 +1,1256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/icofont.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/li-scroller.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/ar-style.css">
+
+    <link rel="icon" href="images/logo.png" type="image/x-icon" />
+    <title> NEWS </title>
+</head>
+
+<body onload="startTime()">
+
+
+    <!--=====//  MAIN HEADER //=======-->
+    
+    <header class="site-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6">
+                    <div class="left-header wow zoomIn" data-wow-delay=".1s">
+                        <ul>
+                            <li>
+                                <div class="social">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <i class="icofont icofont-social-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="icofont icofont-social-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="icofont icofont-social-youtube-play"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="icofont icofont-social-google-plus"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+    
+                            <li>
+                                <div class="site-calender">
+                                    <center id="setdate"> </center>
+                                    <i class="icofont icofont-ui-calendar"></i>
+                                </div>
+                            </li>
+    
+                            <li class="ds-none">
+                                <div class="site-clock">
+                                    <div class="clock" id="clock">
+                                    </div>
+                                    <i class="icofont icofont-wall-clock"></i>
+                                </div>
+                            </li>
+    
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <div class="right-header  wow zoomIn" data-wow-delay=".1s">
+                        <ul>
+                            <li>
+                                <div class="search-box">
+                                    <form>
+                                        <input type="text" />
+                                        <div class="after"></div>
+                                        <input type="submit" />
+                                    </form>
+                                </div>
+                            </li>
+                            <li>
+                                <select>
+                                    <option value="En"> En </option>
+                                    <option value="AR"> AR </option>
+                                </select>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--=====//  MAIN nav //=======-->
+    <section class="page-menue-box BG">
+        <div class="container">
+            <img src="images/logo.png" class="wow zoomIn" data-wow-delay=".2s">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light wow zoomIn" data-wow-delay=".4s">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html"> الرئيسية
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="news.html"> عاجل </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="news.html"> سياسة </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="news.html"> تقارير </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="news.html"> حوادث </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="news.html"> المرأة </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="news.html"> تحقيقات </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="news.html"> رياضة </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="news.html"> عقارات </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="news.html"> تكنولوجيا </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="news.html"> فن </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                المزيد
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="news.html"> فن </a>
+                                <a class="dropdown-item" href="news.html"> فن </a>
+                                <a class="dropdown-item" href="news.html"> فن </a>
+                                <a class="dropdown-item" href="news.html"> فن </a>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+    <!--=====//  article-page //=======-->
+
+    <section class="article-page">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-12 col-sm-12 col-md-8">
+                    <div class="article-page-content">
+
+                        <div class="basic-head BG wow fadeInUp" data-wow-delay=".1s">
+                            <h3> الفيديوهات  </h3>                       
+                        </div>
+
+                        <div class="video-article-box wow fadeInUp" data-wow-delay=".1s">
+                            <div class="card">
+                                <div class="article-pic card-pic video wow fadeInUp" data-wow-delay=".1s">
+                                    <iframe width="100%" height="100" src="https://www.youtube.com/embed/xNikAkGsyp0" frameborder="0" allow="autoplay; encrypted-media"
+                                        allowfullscreen></iframe>
+                                </div>
+                                
+                                <div class="article-basic-data wow fadeInUp" data-wow-delay=".2s">
+                                <a href="article-page.html">
+                                    <div class="title">
+                                        <h5> هذا النص هو مثال لنص يمكن ان يستبدل فى نفس المساحة و يمكن زيادة عدد الاحرف </h5>
+                                    </div>
+                                </a>
+                                <div class="row">
+                                    <div class="col-12 col-sm-6 col-md-6 ">
+                                        <div class="date">
+                                            <p>
+                                                <i class="icofont icofont-ui-calendar"></i> الاحد 30 مارس 2018 </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-6">
+                                        <div class="social-share">
+                                            <ul>
+                                                <li>
+                                                    <a href="https://www.facebook.com" target="_blank" class="facebook">
+                                                        <i class="icofont icofont-social-facebook"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://twitter.com" target="_blank" class="twitter">
+                                                        <i class="icofont icofont-social-twitter"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://plus.google.com" target="_blank" class="google">
+                                                        <i class="icofont icofont-social-google-plus"></i>
+                                                    </a>
+                                                </li>
+                                                <li> شاركونا على </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-article-box wow fadeInUp" data-wow-delay=".2s">
+                            <div class="card">
+                                <div class="article-pic card-pic video wow fadeInUp" data-wow-delay=".1s">
+                                    <iframe width="100%" height="100" src="https://www.youtube.com/embed/aEdqvzxtssI" frameborder="0" allow="autoplay; encrypted-media"
+                                        allowfullscreen></iframe>
+                                </div>
+
+                                <div class="article-basic-data wow fadeInUp" data-wow-delay=".2s">
+                                    <a href="article-page.html">
+                                        <div class="title">
+                                            <h5> هذا النص هو مثال لنص يمكن ان يستبدل فى نفس المساحة و يمكن زيادة عدد الاحرف </h5>
+                                        </div>
+                                    </a>
+                                    <div class="row wow fadeInUp" data-wow-delay=".3s">
+                                        <div class="col-12 col-sm-6 col-md-6 ">
+                                            <div class="date">
+                                                <p>
+                                                    <i class="icofont icofont-ui-calendar"></i> الاحد 30 مارس 2018 </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6 col-md-6">
+                                            <div class="social-share">
+                                                <ul>
+                                                    <li>
+                                                        <a href="https://www.facebook.com" target="_blank" class="facebook">
+                                                            <i class="icofont icofont-social-facebook"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://twitter.com" target="_blank" class="twitter">
+                                                            <i class="icofont icofont-social-twitter"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://plus.google.com" target="_blank" class="google">
+                                                            <i class="icofont icofont-social-google-plus"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li> شاركونا على </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-article-box wow fadeInUp" data-wow-delay=".3s">
+                            <div class="card">
+                                <div class="article-pic card-pic video wow fadeInUp" data-wow-delay=".1s">
+                                    <iframe width="100%" height="100" src="https://www.youtube.com/embed/6yLRToFIYwk" frameborder="0" allow="autoplay; encrypted-media"
+                                        allowfullscreen></iframe>
+                                </div>
+
+                                <div class="article-basic-data wow fadeInUp" data-wow-delay=".2s">
+                                    <a href="article-page.html">
+                                        <div class="title">
+                                            <h5> هذا النص هو مثال لنص يمكن ان يستبدل فى نفس المساحة و يمكن زيادة عدد الاحرف </h5>
+                                        </div>
+                                    </a>
+                                    <div class="row wow fadeInUp" data-wow-delay=".3s">
+                                        <div class="col-12 col-sm-6 col-md-6 ">
+                                            <div class="date">
+                                                <p>
+                                                    <i class="icofont icofont-ui-calendar"></i> الاحد 30 مارس 2018 </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6 col-md-6">
+                                            <div class="social-share">
+                                                <ul>
+                                                    <li>
+                                                        <a href="https://www.facebook.com" target="_blank" class="facebook">
+                                                            <i class="icofont icofont-social-facebook"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://twitter.com" target="_blank" class="twitter">
+                                                            <i class="icofont icofont-social-twitter"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://plus.google.com" target="_blank" class="google">
+                                                            <i class="icofont icofont-social-google-plus"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li> شاركونا على </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-article-box wow fadeInUp" data-wow-delay=".4s">
+                            <div class="card">
+                                <div class="article-pic card-pic video wow fadeInUp" data-wow-delay=".1s">
+                                    <iframe width="100%" height="100" src="https://www.youtube.com/embed/6v7Dc7Gzlj8" frameborder="0" allow="autoplay; encrypted-media"
+                                        allowfullscreen></iframe>
+                                </div>
+
+                                <div class="article-basic-data wow fadeInUp" data-wow-delay=".2s">
+                                    <a href="article-page.html">
+                                        <div class="title">
+                                            <h5> هذا النص هو مثال لنص يمكن ان يستبدل فى نفس المساحة و يمكن زيادة عدد الاحرف </h5>
+                                        </div>
+                                    </a>
+                                    <div class="row wow fadeInUp" data-wow-delay=".3s">
+                                        <div class="col-12 col-sm-6 col-md-6 ">
+                                            <div class="date">
+                                                <p>
+                                                    <i class="icofont icofont-ui-calendar"></i> الاحد 30 مارس 2018 </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6 col-md-6">
+                                            <div class="social-share">
+                                                <ul>
+                                                    <li>
+                                                        <a href="https://www.facebook.com" target="_blank" class="facebook">
+                                                            <i class="icofont icofont-social-facebook"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://twitter.com" target="_blank" class="twitter">
+                                                            <i class="icofont icofont-social-twitter"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://plus.google.com" target="_blank" class="google">
+                                                            <i class="icofont icofont-social-google-plus"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li> شاركونا على </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-article-box wow fadeInUp" data-wow-delay=".5s"> 
+                            <div class="card">
+                                <div class="article-pic card-pic video wow fadeInUp" data-wow-delay=".1s">
+                                    <iframe width="100%" height="100" src="https://www.youtube.com/embed/xNikAkGsyp0" frameborder="0" allow="autoplay; encrypted-media"
+                                        allowfullscreen></iframe>
+                                </div>
+
+                                <div class="article-basic-data wow fadeInUp" data-wow-delay=".2s">
+                                    <a href="article-page.html">
+                                        <div class="title">
+                                            <h5> هذا النص هو مثال لنص يمكن ان يستبدل فى نفس المساحة و يمكن زيادة عدد الاحرف </h5>
+                                        </div>
+                                    </a>
+                                    <div class="row wow fadeInUp" data-wow-delay=".3s">
+                                        <div class="col-12 col-sm-6 col-md-6 ">
+                                            <div class="date">
+                                                <p>
+                                                    <i class="icofont icofont-ui-calendar"></i> الاحد 30 مارس 2018 </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6 col-md-6">
+                                            <div class="social-share">
+                                                <ul>
+                                                    <li>
+                                                        <a href="https://www.facebook.com" target="_blank" class="facebook">
+                                                            <i class="icofont icofont-social-facebook"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://twitter.com" target="_blank" class="twitter">
+                                                            <i class="icofont icofont-social-twitter"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://plus.google.com" target="_blank" class="google">
+                                                            <i class="icofont icofont-social-google-plus"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li> شاركونا على </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-4">
+                    <div class="artticle-page-side">
+                
+                        <div class="side-add wow fadeInUp" data-wow-delay=".1s">
+                            <img src="images/add.png" class="img-responsive" width="100%">
+                        </div>
+                
+                        <div class="most-read-content wow fadeInUp" data-wow-delay=".2s">
+                            <div class="basic-head BG">
+                                <h3> الأكثر قراءة
+                                    <a href="news-cards.html">
+                                        <i class="icofont icofont-bubble-left"></i>
+                                    </a>
+                                </h3>
+                
+                            </div>
+                
+                            <div class="box">
+                                <ul>
+                                    <!-- article -->
+                                    <li>
+                                        <div class="most-read-article">
+                                            <a href="article-page.html">
+                                                <div class="card wow fadeInUp" data-wow-delay=".1s">
+                                                    <div class="row">
+                                                        <div class="col-4">
+                                                            <div class="card-pic">
+                                                                <img src="images/steve.png" width="100%" class="img-responsive">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-8">
+                                                            <div class="card-body">
+                                                                <h5 class="card-title"> هذا النص هو مثال لنص يمكن ان يستبدل </h5>
+                                                                <p class="card-date">
+                                                                    <small class="text-muted">
+                                                                        <i class="icofont icofont-ui-calendar"></i> الاحد 30 مارس 2018 </small>
+                                                                </p>
+                                                                <p class="card-text writer"> كتب د / احمد على </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- <div class="most-pic">
+                                                                                <img src="images/steve.png" width="100%" class="img-responsive">
+                                                                            </div>
+                                                                            <div class="card-body">
+                                                                                <h5 class="card-title"> هذا النص هو مثال لنص يمكن ان يستبدل </h5>
+                                                                                <p class="card-date">
+                                                                                    <small class="text-muted">
+                                                                                        <i class="icofont icofont-ui-calendar"></i> الاحد 30 مارس 2018 </small>
+                                                                                </p>
+                                                                                <p class="card-text writer"> كتب د / احمد على </p>
+                                                                            </div> -->
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                            
+                                    <!-- article -->
+                                    <li>
+                                        <div class="most-read-article">
+                                            <a href="article-page.html">
+                                                <div class="card wow fadeInUp" data-wow-delay=".1s">
+                                                    <div class="row">
+                                                        <div class="col-4">
+                                                            <div class="card-pic">
+                                                                <img src="images/steve.png" width="100%" class="img-responsive">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-8">
+                                                            <div class="card-body">
+                                                                <h5 class="card-title"> هذا النص هو مثال لنص يمكن ان يستبدل </h5>
+                                                                <p class="card-date">
+                                                                    <small class="text-muted">
+                                                                        <i class="icofont icofont-ui-calendar"></i> الاحد 30 مارس 2018 </small>
+                                                                </p>
+                                                                <p class="card-text writer"> كتب د / احمد على </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- <div class="most-pic">
+                                                                                                                <img src="images/steve.png" width="100%" class="img-responsive">
+                                                                                                            </div>
+                                                                                                            <div class="card-body">
+                                                                                                                <h5 class="card-title"> هذا النص هو مثال لنص يمكن ان يستبدل </h5>
+                                                                                                                <p class="card-date">
+                                                                                                                    <small class="text-muted">
+                                                                                                                        <i class="icofont icofont-ui-calendar"></i> الاحد 30 مارس 2018 </small>
+                                                                                                                </p>
+                                                                                                                <p class="card-text writer"> كتب د / احمد على </p>
+                                                                                                            </div> -->
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                            
+                                    <!-- article -->
+                                    <li>
+                                        <div class="most-read-article">
+                                            <a href="article-page.html">
+                                                <div class="card wow fadeInUp" data-wow-delay=".1s">
+                                                    <div class="row">
+                                                        <div class="col-4">
+                                                            <div class="card-pic">
+                                                                <img src="images/steve.png" width="100%" class="img-responsive">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-8">
+                                                            <div class="card-body">
+                                                                <h5 class="card-title"> هذا النص هو مثال لنص يمكن ان يستبدل </h5>
+                                                                <p class="card-date">
+                                                                    <small class="text-muted">
+                                                                        <i class="icofont icofont-ui-calendar"></i> الاحد 30 مارس 2018 </small>
+                                                                </p>
+                                                                <p class="card-text writer"> كتب د / احمد على </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- <div class="most-pic">
+                                                                                                                <img src="images/steve.png" width="100%" class="img-responsive">
+                                                                                                            </div>
+                                                                                                            <div class="card-body">
+                                                                                                                <h5 class="card-title"> هذا النص هو مثال لنص يمكن ان يستبدل </h5>
+                                                                                                                <p class="card-date">
+                                                                                                                    <small class="text-muted">
+                                                                                                                        <i class="icofont icofont-ui-calendar"></i> الاحد 30 مارس 2018 </small>
+                                                                                                                </p>
+                                                                                                                <p class="card-text writer"> كتب د / احمد على </p>
+                                                                                                            </div> -->
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                            
+                                    <!-- article -->
+                                    <li>
+                                        <div class="most-read-article">
+                                            <a href="article-page.html">
+                                                <div class="card wow fadeInUp" data-wow-delay=".1s">
+                                                    <div class="row">
+                                                        <div class="col-4">
+                                                            <div class="card-pic">
+                                                                <img src="images/steve.png" width="100%" class="img-responsive">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-8">
+                                                            <div class="card-body">
+                                                                <h5 class="card-title"> هذا النص هو مثال لنص يمكن ان يستبدل </h5>
+                                                                <p class="card-date">
+                                                                    <small class="text-muted">
+                                                                        <i class="icofont icofont-ui-calendar"></i> الاحد 30 مارس 2018 </small>
+                                                                </p>
+                                                                <p class="card-text writer"> كتب د / احمد على </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- <div class="most-pic">
+                                                                                                                <img src="images/steve.png" width="100%" class="img-responsive">
+                                                                                                            </div>
+                                                                                                            <div class="card-body">
+                                                                                                                <h5 class="card-title"> هذا النص هو مثال لنص يمكن ان يستبدل </h5>
+                                                                                                                <p class="card-date">
+                                                                                                                    <small class="text-muted">
+                                                                                                                        <i class="icofont icofont-ui-calendar"></i> الاحد 30 مارس 2018 </small>
+                                                                                                                </p>
+                                                                                                                <p class="card-text writer"> كتب د / احمد على </p>
+                                                                                                            </div> -->
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                            
+                                    <!-- article -->
+                                    <li>
+                                        <div class="most-read-article">
+                                            <a href="article-page.html">
+                                                <div class="card wow fadeInUp" data-wow-delay=".1s">
+                                                    <div class="row">
+                                                        <div class="col-4">
+                                                            <div class="card-pic">
+                                                                <img src="images/steve.png" width="100%" class="img-responsive">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-8">
+                                                            <div class="card-body">
+                                                                <h5 class="card-title"> هذا النص هو مثال لنص يمكن ان يستبدل </h5>
+                                                                <p class="card-date">
+                                                                    <small class="text-muted">
+                                                                        <i class="icofont icofont-ui-calendar"></i> الاحد 30 مارس 2018 </small>
+                                                                </p>
+                                                                <p class="card-text writer"> كتب د / احمد على </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- <div class="most-pic">
+                                                                                                                <img src="images/steve.png" width="100%" class="img-responsive">
+                                                                                                            </div>
+                                                                                                            <div class="card-body">
+                                                                                                                <h5 class="card-title"> هذا النص هو مثال لنص يمكن ان يستبدل </h5>
+                                                                                                                <p class="card-date">
+                                                                                                                    <small class="text-muted">
+                                                                                                                        <i class="icofont icofont-ui-calendar"></i> الاحد 30 مارس 2018 </small>
+                                                                                                                </p>
+                                                                                                                <p class="card-text writer"> كتب د / احمد على </p>
+                                                                                                            </div> -->
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                            
+                                    <!-- article -->
+                                    <li>
+                                        <div class="most-read-article">
+                                            <a href="article-page.html">
+                                                <div class="card wow fadeInUp" data-wow-delay=".1s">
+                                                    <div class="row">
+                                                        <div class="col-4">
+                                                            <div class="card-pic">
+                                                                <img src="images/steve.png" width="100%" class="img-responsive">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-8">
+                                                            <div class="card-body">
+                                                                <h5 class="card-title"> هذا النص هو مثال لنص يمكن ان يستبدل </h5>
+                                                                <p class="card-date">
+                                                                    <small class="text-muted">
+                                                                        <i class="icofont icofont-ui-calendar"></i> الاحد 30 مارس 2018 </small>
+                                                                </p>
+                                                                <p class="card-text writer"> كتب د / احمد على </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- <div class="most-pic">
+                                                                                                                <img src="images/steve.png" width="100%" class="img-responsive">
+                                                                                                            </div>
+                                                                                                            <div class="card-body">
+                                                                                                                <h5 class="card-title"> هذا النص هو مثال لنص يمكن ان يستبدل </h5>
+                                                                                                                <p class="card-date">
+                                                                                                                    <small class="text-muted">
+                                                                                                                        <i class="icofont icofont-ui-calendar"></i> الاحد 30 مارس 2018 </small>
+                                                                                                                </p>
+                                                                                                                <p class="card-text writer"> كتب د / احمد على </p>
+                                                                                                            </div> -->
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                            
+                                    <!-- article -->
+                                    <li>
+                                        <div class="most-read-article">
+                                            <a href="article-page.html">
+                                                <div class="card wow fadeInUp" data-wow-delay=".1s">
+                                                    <div class="row">
+                                                        <div class="col-4">
+                                                            <div class="card-pic">
+                                                                <img src="images/steve.png" width="100%" class="img-responsive">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-8">
+                                                            <div class="card-body">
+                                                                <h5 class="card-title"> هذا النص هو مثال لنص يمكن ان يستبدل </h5>
+                                                                <p class="card-date">
+                                                                    <small class="text-muted">
+                                                                        <i class="icofont icofont-ui-calendar"></i> الاحد 30 مارس 2018 </small>
+                                                                </p>
+                                                                <p class="card-text writer"> كتب د / احمد على </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- <div class="most-pic">
+                                                                                                                <img src="images/steve.png" width="100%" class="img-responsive">
+                                                                                                            </div>
+                                                                                                            <div class="card-body">
+                                                                                                                <h5 class="card-title"> هذا النص هو مثال لنص يمكن ان يستبدل </h5>
+                                                                                                                <p class="card-date">
+                                                                                                                    <small class="text-muted">
+                                                                                                                        <i class="icofont icofont-ui-calendar"></i> الاحد 30 مارس 2018 </small>
+                                                                                                                </p>
+                                                                                                                <p class="card-text writer"> كتب د / احمد على </p>
+                                                                                                            </div> -->
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                            
+                                    <!-- article -->
+                                    <li>
+                                        <div class="most-read-article">
+                                            <a href="article-page.html">
+                                                <div class="card wow fadeInUp" data-wow-delay=".1s">
+                                                    <div class="row">
+                                                        <div class="col-4">
+                                                            <div class="card-pic">
+                                                                <img src="images/steve.png" width="100%" class="img-responsive">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-8">
+                                                            <div class="card-body">
+                                                                <h5 class="card-title"> هذا النص هو مثال لنص يمكن ان يستبدل </h5>
+                                                                <p class="card-date">
+                                                                    <small class="text-muted">
+                                                                        <i class="icofont icofont-ui-calendar"></i> الاحد 30 مارس 2018 </small>
+                                                                </p>
+                                                                <p class="card-text writer"> كتب د / احمد على </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- <div class="most-pic">
+                                                                                                                <img src="images/steve.png" width="100%" class="img-responsive">
+                                                                                                            </div>
+                                                                                                            <div class="card-body">
+                                                                                                                <h5 class="card-title"> هذا النص هو مثال لنص يمكن ان يستبدل </h5>
+                                                                                                                <p class="card-date">
+                                                                                                                    <small class="text-muted">
+                                                                                                                        <i class="icofont icofont-ui-calendar"></i> الاحد 30 مارس 2018 </small>
+                                                                                                                </p>
+                                                                                                                <p class="card-text writer"> كتب د / احمد على </p>
+                                                                                                            </div> -->
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                            
+                                    <!-- article -->
+                                    <li>
+                                        <div class="most-read-article">
+                                            <a href="article-page.html">
+                                                <div class="card wow fadeInUp" data-wow-delay=".1s">
+                                                    <div class="row">
+                                                        <div class="col-4">
+                                                            <div class="card-pic">
+                                                                <img src="images/steve.png" width="100%" class="img-responsive">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-8">
+                                                            <div class="card-body">
+                                                                <h5 class="card-title"> هذا النص هو مثال لنص يمكن ان يستبدل </h5>
+                                                                <p class="card-date">
+                                                                    <small class="text-muted">
+                                                                        <i class="icofont icofont-ui-calendar"></i> الاحد 30 مارس 2018 </small>
+                                                                </p>
+                                                                <p class="card-text writer"> كتب د / احمد على </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- <div class="most-pic">
+                                                                                                                <img src="images/steve.png" width="100%" class="img-responsive">
+                                                                                                            </div>
+                                                                                                            <div class="card-body">
+                                                                                                                <h5 class="card-title"> هذا النص هو مثال لنص يمكن ان يستبدل </h5>
+                                                                                                                <p class="card-date">
+                                                                                                                    <small class="text-muted">
+                                                                                                                        <i class="icofont icofont-ui-calendar"></i> الاحد 30 مارس 2018 </small>
+                                                                                                                </p>
+                                                                                                                <p class="card-text writer"> كتب د / احمد على </p>
+                                                                                                            </div> -->
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                            
+                                    <!-- article -->
+                                    <li>
+                                        <div class="most-read-article">
+                                            <a href="article-page.html">
+                                                <div class="card wow fadeInUp" data-wow-delay=".1s">
+                                                    <div class="row">
+                                                        <div class="col-4">
+                                                            <div class="card-pic">
+                                                                <img src="images/steve.png" width="100%" class="img-responsive">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-8">
+                                                            <div class="card-body">
+                                                                <h5 class="card-title"> هذا النص هو مثال لنص يمكن ان يستبدل </h5>
+                                                                <p class="card-date">
+                                                                    <small class="text-muted">
+                                                                        <i class="icofont icofont-ui-calendar"></i> الاحد 30 مارس 2018 </small>
+                                                                </p>
+                                                                <p class="card-text writer"> كتب د / احمد على </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- <div class="most-pic">
+                                                                                                                <img src="images/steve.png" width="100%" class="img-responsive">
+                                                                                                            </div>
+                                                                                                            <div class="card-body">
+                                                                                                                <h5 class="card-title"> هذا النص هو مثال لنص يمكن ان يستبدل </h5>
+                                                                                                                <p class="card-date">
+                                                                                                                    <small class="text-muted">
+                                                                                                                        <i class="icofont icofont-ui-calendar"></i> الاحد 30 مارس 2018 </small>
+                                                                                                                </p>
+                                                                                                                <p class="card-text writer"> كتب د / احمد على </p>
+                                                                                                            </div> -->
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                            
+                                    <!-- article -->
+                                    <li>
+                                        <div class="most-read-article">
+                                            <a href="article-page.html">
+                                                <div class="card wow fadeInUp" data-wow-delay=".1s">
+                                                    <div class="row">
+                                                        <div class="col-4">
+                                                            <div class="card-pic">
+                                                                <img src="images/steve.png" width="100%" class="img-responsive">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-8">
+                                                            <div class="card-body">
+                                                                <h5 class="card-title"> هذا النص هو مثال لنص يمكن ان يستبدل </h5>
+                                                                <p class="card-date">
+                                                                    <small class="text-muted">
+                                                                        <i class="icofont icofont-ui-calendar"></i> الاحد 30 مارس 2018 </small>
+                                                                </p>
+                                                                <p class="card-text writer"> كتب د / احمد على </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- <div class="most-pic">
+                                                                                                                <img src="images/steve.png" width="100%" class="img-responsive">
+                                                                                                            </div>
+                                                                                                            <div class="card-body">
+                                                                                                                <h5 class="card-title"> هذا النص هو مثال لنص يمكن ان يستبدل </h5>
+                                                                                                                <p class="card-date">
+                                                                                                                    <small class="text-muted">
+                                                                                                                        <i class="icofont icofont-ui-calendar"></i> الاحد 30 مارس 2018 </small>
+                                                                                                                </p>
+                                                                                                                <p class="card-text writer"> كتب د / احمد على </p>
+                                                                                                            </div> -->
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                            
+                                </ul>
+                            </div>
+                        </div>
+                
+                        <div class="voting-box wow fadeInUp" data-wow-delay=".3s">
+                            <div class="basic-head BG">
+                                <h3> إستطلاع رأى </h3>
+                            </div>
+                            <div class="voting-body">
+                                <div class="vote-quest">
+                                    <p> من هو أحسن لاعب فى الدورى الانجليزى ؟ </p>
+                                    <ul>
+                                        <li>
+                                            <input type="radio" id="test1" name="radio-group" class="radio" checked>
+                                            <label for="test1"> محمد صلاح </label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" id="test2" name="radio-group" class="radio">
+                                            <label for="test2"> محمد صلاح </label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" id="test3" name="radio-group" class="radio">
+                                            <label for="test3"> محمد صلاح </label>
+                                        </li>
+                                    </ul>
+                        
+                                    <span class="show-results"> عرض النتائج </span>
+                                </div>
+                                <div class="voting-results">
+                                    <div class="progress-box">
+                                        <label> محمد صلاح </label>
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 50%;" aria-valuenow="50"
+                                                aria-valuemin="0" aria-valuemax="100">50%</div>
+                                        </div>
+                                    </div>
+                        
+                                    <div class="progress-box">
+                                        <label> محمد صلاح </label>
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 30%;" aria-valuenow="30"
+                                                aria-valuemin="0" aria-valuemax="100">30%</div>
+                                        </div>
+                                    </div>
+                        
+                                    <div class="progress-box">
+                                        <label> محمد صلاح </label>
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 20%;" aria-valuenow="20"
+                                                aria-valuemin="0" aria-valuemax="100">20%</div>
+                                        </div>
+                                    </div>
+                        
+                                    <span class="hide-results"> عودة </span>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="twitter-box wow fadeInUp" data-wow-delay=".4s">
+                            <div class="basic-head BG">
+                                <h3> تويتر </h3>
+                                <i class="icofont icofont-social-twitter ico"></i>
+                            </div>
+                            <div class="page-show">
+                                <a class="twitter-timeline" href="https://twitter.com/AlArabiya" data-widget-id="636071601541414912"></a>
+                                <!-- <iframe height="*" src="http://www.facebook.com/photo.php?fbid=10150277739848763&set=pu.105012493762&type=1&theater" width="100%"></iframe> -->
+                            </div>
+                        </div>
+                
+                        <div class="facebook-box wow fadeInUp" data-wow-delay=".5s">
+                            <div class="basic-head BG">
+                                <h3> فيسبوك </h3>
+                                <i class="icofont icofont-social-facebook ico"></i>
+                            </div>
+                            <div class="page-show">
+                                <div class="page-embed">
+                                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FofficialKooraNew%2F&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                                        width="100%" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="side-add wow fadeInUp" data-wow-delay=".6s">
+                            <img src="images/add.png" class="img-responsive" width="100%">
+                        </div>
+                
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--  related posts -->
+    <section class="related-posts-sec">
+        <div class="container">
+            <div class="box">
+    
+                <div class="basic-head BG">
+                    <h3> اقرأ المزيد </h3>
+                </div>
+    
+                <div class="relatec-content">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                            <a href="article-page.html">
+                                <div class="card mb-3 wow fadeInUp" data-wow-delay=".1s">
+                                    <div class="card-pic">
+                                        <img class="card-img-top" src="images/pic1.png" alt="Card image cap">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title"> هذا النص هو مثال لنص يمكن ان يستبدل </h5>
+                                        <p class="card-date">
+                                            <small class="text-muted">
+                                                <i class="icofont icofont-ui-calendar"></i> الاحد 30 مارس 2018 </small>
+                                        </p>
+                                        <p class="card-text">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص
+                                            العربى، حيث </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                            <a href="article-page.html">
+                                <div class="card mb-3 wow fadeInUp" data-wow-delay=".2s">
+                                    <div class="card-pic">
+                                        <img class="card-img-top" src="images/pic1.png" alt="Card image cap">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title"> هذا النص هو مثال لنص يمكن ان يستبدل </h5>
+                                        <p class="card-date">
+                                            <small class="text-muted">
+                                                <i class="icofont icofont-ui-calendar"></i> الاحد 30 مارس 2018 </small>
+                                        </p>
+                                        <p class="card-text">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص
+                                            العربى، حيث </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                            <a href="article-page.html">
+                                <div class="card mb-3 wow fadeInUp" data-wow-delay=".3s">
+                                    <div class="card-pic">
+                                        <img class="card-img-top" src="images/pic1.png" alt="Card image cap">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title"> هذا النص هو مثال لنص يمكن ان يستبدل </h5>
+                                        <p class="card-date">
+                                            <small class="text-muted">
+                                                <i class="icofont icofont-ui-calendar"></i> الاحد 30 مارس 2018 </small>
+                                        </p>
+                                        <p class="card-text">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص
+                                            العربى، حيث </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                            <a href="article-page.html">
+                                <div class="card mb-3 wow fadeInUp" data-wow-delay=".4s">
+                                    <div class="card-pic">
+                                        <img class="card-img-top" src="images/pic1.png" alt="Card image cap">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title"> هذا النص هو مثال لنص يمكن ان يستبدل </h5>
+                                        <p class="card-date">
+                                            <small class="text-muted">
+                                                <i class="icofont icofont-ui-calendar"></i> الاحد 30 مارس 2018 </small>
+                                        </p>
+                                        <p class="card-text">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص
+                                            العربى، حيث </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="news-share wow zoomIn" data-wow-delay=".1s">
+                        <h3> اشترك فى نشرتنا الاخبارية </h3>
+                        <form>
+                            <input type="email" class="form-control" placeholder="البريد الالكترونى">
+                            <button class="btn btn-info" type="submit"> اشترك </button>
+                        </form>
+                    </div>
+
+                    <div class="app-download wow zoomIn" data-wow-delay=".2s">
+                        <h3> تطبيق الموقع متوفر على </h3>
+                        <a href="#">
+                            <p> Google Play
+                                <i class="icofont icofont-brand-appstore"></i>
+                            </p>
+                        </a>
+                        <a href="#">
+                            <p> App Store
+                                <i class="icofont icofont-brand-apple"></i>
+                            </p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="logo-box wow zoomIn" data-wow-delay=".3s">
+                        <img src="images/logo.png" class="img-responsive" width="100%">
+
+                        <p> هذا النص هو مثال لنص يمكن ان يستبدلهذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد
+                            هذا النص من مولد النص العربى، حيث </p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-2">
+                    <div class="important-links wow zoomIn" data-wow-delay=".4s">
+                        <h4> الروابط المهمه </h4>
+                        <ul>
+                            <li>
+                                <a href="#"> سياسة </a>
+                            </li>
+                            <li>
+                                <a href="#"> حوادث </a>
+                            </li>
+                            <li>
+                                <a href="#"> تحقيقات </a>
+                            </li>
+                            <li>
+                                <a href="#"> المرأة </a>
+                            </li>
+                            <li>
+                                <a href="#"> الرياضة </a>
+                            </li>
+                            <li>
+                                <a href="#"> صحة </a>
+                            </li>
+                            <li>
+                                <a href="#"> التكنولوجيا </a>
+                            </li>
+                            <li>
+                                <a href="#"> فن </a>
+                            </li>
+                            <li>
+                                <a href="#"> عقارات </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="basic-links wow zoomIn" data-wow-delay=".5s">
+                        <h4> الروابط الاساسية </h4>
+                        <ul>
+                            <li>
+                                <a href="#"> سياسة </a>
+                            </li>
+                            <li>
+                                <a href="#"> سياسة </a>
+                            </li>
+                            <li>
+                                <a href="#"> حوادث </a>
+                            </li>
+                            <li>
+                                <a href="#"> حوادث </a>
+                            </li>
+                            <li>
+                                <a href="#"> تحقيقات </a>
+                            </li>
+                            <li>
+                                <a href="#"> تحقيقات </a>
+                            </li>
+                            <li>
+                                <a href="#"> المرأة </a>
+                            </li>
+                            <li>
+                                <a href="#"> المرأة </a>
+                            </li>
+                            <li>
+                                <a href="#"> الرياضة </a>
+                            </li>
+                            <li>
+                                <a href="#"> الرياضة </a>
+                            </li>
+                            <li>
+                                <a href="#"> صحة </a>
+                            </li>
+                            <li>
+                                <a href="#"> صحة </a>
+                            </li>
+                            <li>
+                                <a href="#"> التكنولوجيا </a>
+                            </li>
+                            <li>
+                                <a href="#"> التكنولوجيا </a>
+                            </li>
+                            <li>
+                                <a href="#"> فن </a>
+                            </li>
+                            <li>
+                                <a href="#"> فن </a>
+                            </li>
+                            <li>
+                                <a href="#"> عقارات </a>
+                            </li>
+                            <li>
+                                <a href="#"> عقارات </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="copy-right wow zoomIn" data-wow-delay=".3s">
+            <h3> تابعونا على :</h3>
+            <div class="social">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i class="icofont icofont-social-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="icofont icofont-social-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="icofont icofont-social-youtube-play"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="icofont icofont-social-google-plus"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <p> جميع الحقوق محفوظة لمؤسسة رمال الادودية لسنة 2018</p>
+        </div>
+
+        <span class="scrol-top"> <img src="images/top.svg" width="100%" class="img-responsive"> </span>
+
+    </section>
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nice-select.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/jquery.li-scroller.1.0.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/edit.js"></script>
+
+   
+    <!-- start Twitter init & Include -->
+    <script>
+
+        window.twttr = (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0],
+                t = window.twttr || {};
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "https://platform.twitter.com/widgets.js";
+            fjs.parentNode.insertBefore(js, fjs);
+
+            t._e = [];
+            t.ready = function (f) {
+                t._e.push(f);
+            };
+
+            return t;
+        }(document, "script", "twitter-wjs"));
+
+    </script>
+    <!-- End Twitter init & Include -->
+
+
+    <script>
+        new WOW().init();
+    </script>
+
+
+</body>
+
+</html>
